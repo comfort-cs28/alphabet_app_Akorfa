@@ -130,7 +130,7 @@ for letter in letters:
         col = 0
         row += 1
 
-speak_btn = tk.Button(root, text="🔊 Repeat / click to speak", font=("Arial", 16, "bold"),
+speak_btn = tk.Button(root, text="🔊  click to speak", font=("Arial", 16, "bold"),
                       bg="#20B2AA", fg="white", command=speak_full_text, width=25)
 speak_btn.pack(pady=10)
 
